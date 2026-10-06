@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.log
+*.task
+*.mp4
+results/my_video/

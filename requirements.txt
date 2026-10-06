@@ -1,0 +1,8 @@
+numpy
+mujoco==3.3.0            # newer MuJoCo breaks Fetch's joint setup in gymnasium-robotics 1.4.2
+gymnasium-robotics==1.4.2
+imageio
+pytest
+# for real videos:
+mediapipe>=0.10.20
+opencv-python

@@ -1,0 +1,424 @@
+[
+ {
+  "n": 100,
+  "success": 100,
+  "rate": 1.0,
+  "ci95": [
+   0.9630051925239981,
+   0.9999999999999999
+  ],
+  "outcomes": {
+   "success": 100,
+   "never_grasped": 0,
+   "dropped_in_transit": 0,
+   "missed_goal": 0,
+   "retarget_failed": 0
+  },
+  "name": "oracle",
+  "config": {
+   "policy": "oracle"
+  },
+  "config_hash": "beefa4b5a3",
+  "seconds": 14.5
+ },
+ {
+  "n": 100,
+  "success": 95,
+  "rate": 0.95,
+  "ci95": [
+   0.8882480347279118,
+   0.9784566385436864
+  ],
+  "outcomes": {
+   "success": 95,
+   "never_grasped": 0,
+   "dropped_in_transit": 0,
+   "missed_goal": 5,
+   "retarget_failed": 0
+  },
+  "name": "replay_clean_k1",
+  "config": {
+   "policy": "replay",
+   "noise": "clean",
+   "smooth_k": 1,
+   "reanchor": true
+  },
+  "config_hash": "e69f5b4a5e",
+  "seconds": 12.7
+ },
+ {
+  "n": 100,
+  "success": 98,
+  "rate": 0.98,
+  "ci95": [
+   0.9299868370580063,
+   0.9944981477650318
+  ],
+  "outcomes": {
+   "success": 98,
+   "never_grasped": 0,
+   "dropped_in_transit": 0,
+   "missed_goal": 2,
+   "retarget_failed": 0
+  },
+  "name": "replay_clean_k5",
+  "config": {
+   "policy": "replay",
+   "noise": "clean",
+   "smooth_k": 5,
+   "reanchor": true
+  },
+  "config_hash": "92ea5265ad",
+  "seconds": 12.9
+ },
+ {
+  "n": 100,
+  "success": 100,
+  "rate": 1.0,
+  "ci95": [
+   0.9630051925239981,
+   0.9999999999999999
+  ],
+  "outcomes": {
+   "success": 100,
+   "never_grasped": 0,
+   "dropped_in_transit": 0,
+   "missed_goal": 0,
+   "retarget_failed": 0
+  },
+  "name": "replay_clean_k9",
+  "config": {
+   "policy": "replay",
+   "noise": "clean",
+   "smooth_k": 9,
+   "reanchor": true
+  },
+  "config_hash": "51fb8b832c",
+  "seconds": 12.8
+ },
+ {
+  "n": 100,
+  "success": 78,
+  "rate": 0.78,
+  "ci95": [
+   0.6892946528499969,
+   0.849988254963442
+  ],
+  "outcomes": {
+   "success": 78,
+   "never_grasped": 5,
+   "dropped_in_transit": 2,
+   "missed_goal": 15,
+   "retarget_failed": 0
+  },
+  "name": "replay_phone_k1",
+  "config": {
+   "policy": "replay",
+   "noise": "phone",
+   "smooth_k": 1,
+   "reanchor": true
+  },
+  "config_hash": "32a689c4e8",
+  "seconds": 13.2
+ },
+ {
+  "n": 100,
+  "success": 97,
+  "rate": 0.97,
+  "ci95": [
+   0.915479219195973,
+   0.9897456617765851
+  ],
+  "outcomes": {
+   "success": 97,
+   "never_grasped": 0,
+   "dropped_in_transit": 0,
+   "missed_goal": 3,
+   "retarget_failed": 0
+  },
+  "name": "replay_phone_k5",
+  "config": {
+   "policy": "replay",
+   "noise": "phone",
+   "smooth_k": 5,
+   "reanchor": true
+  },
+  "config_hash": "997d120453",
+  "seconds": 13.3
+ },
+ {
+  "n": 100,
+  "success": 100,
+  "rate": 1.0,
+  "ci95": [
+   0.9630051925239981,
+   0.9999999999999999
+  ],
+  "outcomes": {
+   "success": 100,
+   "never_grasped": 0,
+   "dropped_in_transit": 0,
+   "missed_goal": 0,
+   "retarget_failed": 0
+  },
+  "name": "replay_phone_k9",
+  "config": {
+   "policy": "replay",
+   "noise": "phone",
+   "smooth_k": 9,
+   "reanchor": true
+  },
+  "config_hash": "bf393d50ea",
+  "seconds": 12.7
+ },
+ {
+  "n": 100,
+  "success": 41,
+  "rate": 0.41,
+  "ci95": [
+   0.31867157095664655,
+   0.5079874943890338
+  ],
+  "outcomes": {
+   "success": 41,
+   "never_grasped": 32,
+   "dropped_in_transit": 5,
+   "missed_goal": 22,
+   "retarget_failed": 0
+  },
+  "name": "replay_poor_k1",
+  "config": {
+   "policy": "replay",
+   "noise": "poor",
+   "smooth_k": 1,
+   "reanchor": true
+  },
+  "config_hash": "af7e6c808f",
+  "seconds": 13.4
+ },
+ {
+  "n": 100,
+  "success": 96,
+  "rate": 0.96,
+  "ci95": [
+   0.9016278276739262,
+   0.984336949448152
+  ],
+  "outcomes": {
+   "success": 96,
+   "never_grasped": 2,
+   "dropped_in_transit": 0,
+   "missed_goal": 2,
+   "retarget_failed": 0
+  },
+  "name": "replay_poor_k5",
+  "config": {
+   "policy": "replay",
+   "noise": "poor",
+   "smooth_k": 5,
+   "reanchor": true
+  },
+  "config_hash": "58f2b62561",
+  "seconds": 13.3
+ },
+ {
+  "n": 100,
+  "success": 97,
+  "rate": 0.97,
+  "ci95": [
+   0.915479219195973,
+   0.9897456617765851
+  ],
+  "outcomes": {
+   "success": 97,
+   "never_grasped": 1,
+   "dropped_in_transit": 0,
+   "missed_goal": 2,
+   "retarget_failed": 0
+  },
+  "name": "replay_poor_k9",
+  "config": {
+   "policy": "replay",
+   "noise": "poor",
+   "smooth_k": 9,
+   "reanchor": true
+  },
+  "config_hash": "e061d875c1",
+  "seconds": 12.6
+ },
+ {
+  "n": 100,
+  "success": 14,
+  "rate": 0.14,
+  "ci95": [
+   0.08526265754464905,
+   0.22137360383807236
+  ],
+  "outcomes": {
+   "success": 14,
+   "never_grasped": 58,
+   "dropped_in_transit": 5,
+   "missed_goal": 23,
+   "retarget_failed": 0
+  },
+  "name": "replay_bad_k1",
+  "config": {
+   "policy": "replay",
+   "noise": "bad",
+   "smooth_k": 1,
+   "reanchor": true
+  },
+  "config_hash": "b2a164c9ca",
+  "seconds": 12.9
+ },
+ {
+  "n": 100,
+  "success": 78,
+  "rate": 0.78,
+  "ci95": [
+   0.6892946528499969,
+   0.849988254963442
+  ],
+  "outcomes": {
+   "success": 78,
+   "never_grasped": 6,
+   "dropped_in_transit": 2,
+   "missed_goal": 14,
+   "retarget_failed": 0
+  },
+  "name": "replay_bad_k5",
+  "config": {
+   "policy": "replay",
+   "noise": "bad",
+   "smooth_k": 5,
+   "reanchor": true
+  },
+  "config_hash": "9f4202d78d",
+  "seconds": 13.5
+ },
+ {
+  "n": 100,
+  "success": 86,
+  "rate": 0.86,
+  "ci95": [
+   0.7786263961619276,
+   0.914737342455351
+  ],
+  "outcomes": {
+   "success": 86,
+   "never_grasped": 8,
+   "dropped_in_transit": 0,
+   "missed_goal": 5,
+   "retarget_failed": 1
+  },
+  "name": "replay_bad_k9",
+  "config": {
+   "policy": "replay",
+   "noise": "bad",
+   "smooth_k": 9,
+   "reanchor": true
+  },
+  "config_hash": "58126a14d6",
+  "seconds": 13.3
+ },
+ {
+  "n": 100,
+  "success": 7,
+  "rate": 0.07,
+  "ci95": [
+   0.034318824364064096,
+   0.13749671006529757
+  ],
+  "outcomes": {
+   "success": 7,
+   "never_grasped": 54,
+   "dropped_in_transit": 10,
+   "missed_goal": 29,
+   "retarget_failed": 0
+  },
+  "name": "replay_very_bad_k1",
+  "config": {
+   "policy": "replay",
+   "noise": "very_bad",
+   "smooth_k": 1,
+   "reanchor": true
+  },
+  "config_hash": "e7b8c49705",
+  "seconds": 13.7
+ },
+ {
+  "n": 100,
+  "success": 48,
+  "rate": 0.48,
+  "ci95": [
+   0.38464384320080547,
+   0.5768359490982345
+  ],
+  "outcomes": {
+   "success": 48,
+   "never_grasped": 23,
+   "dropped_in_transit": 4,
+   "missed_goal": 25,
+   "retarget_failed": 0
+  },
+  "name": "replay_very_bad_k5",
+  "config": {
+   "policy": "replay",
+   "noise": "very_bad",
+   "smooth_k": 5,
+   "reanchor": true
+  },
+  "config_hash": "35917776e3",
+  "seconds": 13.0
+ },
+ {
+  "n": 100,
+  "success": 68,
+  "rate": 0.68,
+  "ci95": [
+   0.5833719774632081,
+   0.7633098918454312
+  ],
+  "outcomes": {
+   "success": 68,
+   "never_grasped": 18,
+   "dropped_in_transit": 0,
+   "missed_goal": 11,
+   "retarget_failed": 3
+  },
+  "name": "replay_very_bad_k9",
+  "config": {
+   "policy": "replay",
+   "noise": "very_bad",
+   "smooth_k": 9,
+   "reanchor": true
+  },
+  "config_hash": "3bd88c913e",
+  "seconds": 12.7
+ },
+ {
+  "n": 100,
+  "success": 4,
+  "rate": 0.04,
+  "ci95": [
+   0.015663050551848016,
+   0.09837217232607373
+  ],
+  "outcomes": {
+   "success": 4,
+   "never_grasped": 93,
+   "dropped_in_transit": 0,
+   "missed_goal": 3,
+   "retarget_failed": 0
+  },
+  "name": "naive_phone_k5",
+  "config": {
+   "policy": "replay",
+   "noise": "phone",
+   "smooth_k": 5,
+   "reanchor": false
+  },
+  "config_hash": "fafa9d0119",
+  "seconds": 13.2
+ }
+]
